@@ -1,0 +1,77 @@
+body{
+	/* background-image: url("https://imgs.search.brave.com/zD-GpRAZyBg1w8uYNRUj7t_s1eMaPXCsEuTGo7_kErQ/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC53/TGstRHZVYmpZYmhO/VE1QZTlEUzJ3SGFF/SyZwaWQ9QXBp");
+    background-repeat: no-repeat; */
+	background-size: cover;
+	background-color: antiquewhite;
+}
+.container {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding: 20px;
+	background-color:rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 0;
+	color: rgb(1, 11, 6);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-group {
+	margin: 10px 0;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+	color:#060606;
+}
+
+input[type="text"], input[type="password"], input[type="tel"] {
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+button {
+	background-color:rgb(179, 177, 196);
+	color: #030000;
+	padding: 10px;
+	
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	margin: 10px;
+	margin-left: 200px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #9a7b6d;
+}
+
+.message{
+    color: green;
+	font-size: 20px;
+	text-align: center;
+	background-color:#ffffff;
+	border-radius: 50%;
+	width: 700px;
+	height: 100px;
+	margin-left: 400px;
+	margin-top: 300px;
+}
